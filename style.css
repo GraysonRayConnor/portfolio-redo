@@ -38,10 +38,20 @@ body {
 	src: url(assets/gcustomfont4.otf);
 	font-style: normal;
 }
+section {
+	background: #f0ead6;
+}
 
 p {
 	letter-spacing: 2.5px;
 	line-height: 1.5;
+}
+
+a:link,
+a:visited,
+a:active {
+	color: #2c2c2c;
+	text-decoration: none;
 }
 
 #header {
@@ -100,8 +110,8 @@ p {
 }
 
 .header-right button {
-	width: 18rem;
-	height: 4rem;
+	width: 28rem;
+	height: 5rem;
 	margin-top: 2rem;
 	font-size: 2rem;
 	background: none;
@@ -130,8 +140,8 @@ p {
 }
 
 .projects-container {
-	background: #f0ead6;
 	width: 100%;
+	display: none;
 }
 
 .projects {
@@ -144,7 +154,7 @@ p {
 
 .project {
 	margin: 7rem 5rem;
-	width: 50rem;
+	width: 40rem;
 }
 
 .project img {
@@ -160,6 +170,86 @@ p {
 .project p {
 	margin-top: 1rem;
 	font-size: 1.25rem;
+}
+
+.about-container {
+	display: none;
+}
+
+.about {
+	width: 75%;
+	margin: 0 auto;
+	padding: 8rem 0;
+	font-size: 2rem;
+	text-indent: 20px;
+}
+
+.about p {
+	letter-spacing: 0.75px;
+	line-height: 1.65;
+}
+
+.about span {
+	font-size: 3rem;
+}
+
+.social-container {
+	height: 90%;
+}
+
+.resumeBtn {
+	text-align: center;
+	padding-top: 10rem;
+}
+
+.resumeBtn button {
+	width: 33rem;
+	font-size: 2.5rem;
+	height: 6rem;
+	color: #2c2c2c;
+	border: 3px solid #2c2c2c;
+	background: none;
+	font-weight: bold;
+}
+
+.socials {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	padding: 15rem 0;
+}
+
+.icon-div {
+	display: flex;
+	flex-direction: column;
+}
+
+.icon-div span {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+.icon {
+	font-size: 15rem;
+}
+
+#cwIcon {
+	width: 14.25rem;
+}
+
+.section {
+	display: none;
+}
+
+.is-active {
+	display: block;
+}
+
+.tab.is-active {
+	background: #f0ead6;
+	color: #2c2c2c;
+	text-decoration: underline;
 }
 
 @media only screen and (max-width: 1373px) {
@@ -190,7 +280,7 @@ p {
 	.header-right button {
 		font-size: 2rem;
 		height: 4.5rem;
-		width: 20rem;
+		width: 28rem;
 	}
 
 	.project {
@@ -255,7 +345,7 @@ p {
 
 	.header-right button {
 		font-size: 3rem;
-		width: 28rem;
+		width: 40rem;
 		height: 8rem;
 	}
 
@@ -278,5 +368,36 @@ p {
 
 	.project p {
 		font-size: 2.25rem;
+	}
+
+	.about {
+		width: 85%;
+		font-size: 2.5rem;
+	}
+
+	.socials {
+		flex-direction: column;
+		padding: 10rem 0 0 0;
+	}
+	.icon-link {
+		margin: 0 auto 10rem auto;
+	}
+
+	.icon-div span {
+		font-size: 2.5rem;
+	}
+
+	.icon {
+		font-size: 20rem;
+	}
+
+	#cwIcon {
+		width: 17.5rem;
+	}
+
+	.resumeBtn button {
+		height: 8rem;
+		width: 40rem;
+		font-size: 3rem;
 	}
 }

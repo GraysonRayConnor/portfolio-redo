@@ -4,6 +4,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Grayson Connor</title>
+		<script
+			src="https://kit.fontawesome.com/b7f26ca48c.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
@@ -21,78 +26,193 @@
 						fugit explicabo officiis maxime debitis expedita pariatur
 						voluptatibus, commodi sapiente sequi qui asperiores.
 					</p>
-					<button class="cta-main">Contact Me</button>
+					<a href="assets/Grayson_Connor_Resume_2021.pdf" download>
+						<button class="cta-main">Download Resume</button>
+					</a>
 				</div>
 			</div>
 		</header>
 		<div class="navbar">
-			<button>About</button>
-			<button>Projects</button>
-			<button>Socials</button>
+			<button class="tab" data-switcher data-tab="1">About</button>
+			<button class="tab is-active" data-switcher data-tab="2">Projects</button>
+			<button class="tab" data-switcher data-tab="3">Socials</button>
 		</div>
-		<section class="projects-container">
+		<section data-page="2" class="projects-container page is-active">
 			<div class="projects">
 				<div class="project">
-					<img src="assets/project-sample.png" alt="" />
-					<span>PROJECT NAME</span>
+					<a href="https://lucid-hugle-6588a9.netlify.app/" target="_blank">
+						<img src="assets/project-thumb-8.png" alt="" />
+						<span>MUSICTRACKS CHECKOUT PAGE</span>
+					</a>
 					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-						accusantium numquam maxime dolor fugiat nostrum non qui eum, ab,
-						praesentium itaque labore? Deleniti explicabo accusamus aspernatur
-						voluptates optio iusto temporibus?
+						This project was part of a coding challenge I was given for an
+						interview. This was my first time using CSS Grid and SASS and I
+						absolutely fell in love with those technologies while making it.
 					</p>
 				</div>
 				<div class="project">
-					<img src="assets/project-sample.png" alt="" />
-					<span>PROJECT NAME</span>
+					<a href="https://www.kickflipsandkickstands.com/" target="_blank">
+						<img src="assets/project-thumb-2.png" alt="" />
+						<span>KICKFLIPSANDKICKSTANDS.COM</span>
+					</a>
 					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-						accusantium numquam maxime dolor fugiat nostrum non qui eum, ab,
-						praesentium itaque labore? Deleniti explicabo accusamus aspernatur
-						voluptates optio iusto temporibus?
+						Kickflipsandkickstands.com is a website that I made for a podcast
+						that I co-host with my friend Danny. This site features a podcast
+						player plugin and social media widgets.
 					</p>
 				</div>
 				<div class="project">
-					<img src="assets/project-sample.png" alt="" />
-					<span>PROJECT NAME</span>
+					<a href="https://www.apollobaymusic.com/" target="_blank">
+						<img src="assets/project-thumb-1.png" alt="" />
+						<span>APOLLOBAYMUSIC.COM</span>
+					</a>
 					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-						accusantium numquam maxime dolor fugiat nostrum non qui eum, ab,
-						praesentium itaque labore? Deleniti explicabo accusamus aspernatur
-						voluptates optio iusto temporibus?
+						Apollobaymusic.com is a memorial site that I made for a band that I
+						used to be in. Were we the best band ever? That's not for me to say.
+						But the answer is, yes, yes we were. This site features a music and
+						video player and was built with HTML, CSS, JavaScript, and
+						Bootstrap.
 					</p>
 				</div>
 				<div class="project">
-					<img src="assets/project-sample.png" alt="" />
-					<span>PROJECT NAME</span>
+					<a href="https://upbeat-mcnulty-5c5370.netlify.app/" target="_blank">
+						<img src="assets/project-thumb-4.png" alt="" />
+						<span>COLOR_CONVERTER V1</span>
+					</a>
 					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-						accusantium numquam maxime dolor fugiat nostrum non qui eum, ab,
-						praesentium itaque labore? Deleniti explicabo accusamus aspernatur
-						voluptates optio iusto temporibus?
+						The goal with this one was to make a tool for myself that I would
+						actually use day-to-day. Mission accomplished. This app converts
+						color codes into rgb, hsl, and hex code formats.
 					</p>
 				</div>
 				<div class="project">
-					<img src="assets/project-sample.png" alt="" />
-					<span>PROJECT NAME</span>
+					<a href="https://weatherbygrayson.com/" target="_blank">
+						<img src="assets/project-thumb-3.png" alt="" />
+						<span>GRAYSON'S WEATHER APP</span>
+					</a>
 					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-						accusantium numquam maxime dolor fugiat nostrum non qui eum, ab,
-						praesentium itaque labore? Deleniti explicabo accusamus aspernatur
-						voluptates optio iusto temporibus?
+						A weather app!? Bet you've never heard of one of those before, have
+						you? This app uses the openweathermap api and the geolocation api to
+						bring you the current weather in your location as well as any city
+						in the world.
 					</p>
 				</div>
 				<div class="project">
-					<img src="assets/project-sample.png" alt="" />
-					<span>PROJECT NAME</span>
+					<a href="https://jovial-pare-17ca56.netlify.app/" target="_blank">
+						<img src="assets/project-thumb-5.png" alt="" />
+						<span>PRICING COMPONENT</span>
+					</a>
 					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-						accusantium numquam maxime dolor fugiat nostrum non qui eum, ab,
-						praesentium itaque labore? Deleniti explicabo accusamus aspernatur
-						voluptates optio iusto temporibus?
+						This pricing component interface was part of a challenge on
+						frontendmentor.io. This pricing interface features a custom range
+						input slider and pricing toggle. I don't have a witty description
+						for this one. It just is what it is.
+					</p>
+				</div>
+				<div class="project">
+					<a href="https://quirky-mestorf-a9e06b.netlify.app/" target="_blank">
+						<img src="assets/project-thumb-6.png" alt="" />
+						<span>PREVIEW CARDS</span>
+					</a>
+					<p>
+						This tiny project was also a part of a frontendmentor.io challenge.
+						It's responsive, it's stylish, it's got info on different styles of
+						cars. What more could you ask for?
+					</p>
+				</div>
+				<div class="project">
+					<a href="https://vibrant-sammet-d11770.netlify.app/" target="_blank">
+						<img src="assets/project-thumb-7.png" alt="" />
+						<span>BLOCJAMS</span>
+					</a>
+					<p>
+						BlocJams is a music player that I made as part of my education at
+						Bloc.io. It's certainly no Spotify but, I learned an insane amount
+						while making it. Also, this was my first major project that I built
+						from start to finish.
 					</p>
 				</div>
 			</div>
 		</section>
+		<section data-page="1" class="about-container page section">
+			<div class="about">
+				<p>
+					<span>Hello!</span> Thanks for visiting my website! As I’m sure you
+					are aware, considering you’re on a website called graysonconnor.com,
+					my name is Grayson Connor. I am 25 years old and I got into web
+					development about 3 years ago. My journey in web development started
+					when I joined a development bootcamp called Bloc.io. At Bloc, I
+					learned the fundamentals of web development and about how deep the
+					world of web dev goes. Soon after my time at Bloc, I was fortunate
+					enough to land a job working at one the biggest tech companies around
+					(not trying to name drop but it rhymes with shmUber). My time at this
+					aforementioned tech giant was actually incredible. I was able to have
+					a hands on role in many areas of the company (P.R., logistics, data
+					analytics, etc.) and I got to see what goes into making a big machine
+					like that function. Alas, after almost 2 years at Uber (ok there, I
+					said it) 2020 happened. Like many others, COVID-19 claimed my job and
+					I suddenly had an abundance of free time.
+				</p>
+				<br />
+				<p>
+					That’s when I said to myself, “I should get back into coding!” You
+					see, at Uber, we used some basic coding as a problem solving tool but,
+					it was certainly not the main aspect of my role. So “getting back into
+					coding” was really more like, “let’s start coding from scratch again.”
+					That’s when stuff got real. I dove head first into teaching (and
+					reteaching) myself everything I could about web development and coding
+					in general.
+				</p>
+				<br />
+				<p>
+					That’s where I’m at now. I’m trying to learn and build as much as I
+					can and I’m loving every minute of it. I’m looking forward to building
+					more complex projects but, more importantly, projects that are truly
+					useful in someones everyday life and work. I’ll keep this site updated
+					with projects that I’ve completed and with projects I’m currently
+					working on. If you’re interested in my skills or just want to chat,
+					don’t hesitate to shoot me an email. Thanks for checking me out!
+				</p>
+			</div>
+		</section>
+		<section data-page="3" class="social-container page section">
+			<div class="resumeBtn">
+				<a href="assets/Grayson_Connor_Resume_2021.pdf" download>
+					<button>DOWNLOAD RESUME</button>
+				</a>
+			</div>
+			<div class="socials">
+				<a class="icon-link" href="https://www.linkedin.com/in/grayson-connor">
+					<div class="icon-div">
+						<i class="fab fa-linkedin-in icon"></i>
+						<span>LINKEDIN</span>
+					</div>
+				</a>
+				<a class="icon-link" href="https://github.com/GraysonRayConnor">
+					<div class="icon-div">
+						<i class="fab fa-github icon"></i>
+						<span>GITHUB</span>
+					</div>
+				</a>
+				<a class="icon-link" href="mailto:graysonrayconnor@gmail.com">
+					<div class="icon-div">
+						<i class="far fa-envelope icon"></i>
+						<span>EMAIL</span>
+					</div>
+				</a>
+				<a class="icon-link" href="https://www.codewars.com/users/TOOTS">
+					<div class="icon-div">
+						<img
+							id="cwIcon"
+							class="icon"
+							src="assets/codewars-icon.png"
+							alt=""
+						/>
+						<span>CODEWARS</span>
+					</div>
+				</a>
+			</div>
+		</section>
+		<script type="text/javascript" src="script.js"></script>
 	</body>
 </html>
